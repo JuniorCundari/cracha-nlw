@@ -1,3 +1,10 @@
+@media (min-width: 960px), (min-width: 720px) {
+  /* estilos versão desktop */
+  body > main {
+    background: url(images/desktop.svg) no-repeat center/cover;
+  }
+}
+
 * {
   margin: 0;
 }
@@ -18,9 +25,10 @@ body {
 }
 
 main {
-  background: url(./images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
